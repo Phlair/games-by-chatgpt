@@ -46,7 +46,7 @@ for pipe in pipes:
     if pipe.xcor() < -200:
         pipe.goto(400, random.choice([-200, 200]))
 
-time.sleep(1)
+time.sleep(0.2)
 
 # Game loop
 while True:
